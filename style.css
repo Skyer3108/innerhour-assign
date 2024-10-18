@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    text-align: center;
+    padding-top:20px ;
+    padding-bottom: 20px;
+
+}
+.head h1{
+color: #E76943;
+
+}
+
+.img img{
+    width: 100vw;
+    max-height: 600px;
+}
+
+.info{
+    
+    margin-top: 50px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.info .align{
+    text-align: center;
+}
+.info .para{
+    
+    margin-top: 10px;
+font-size: 20px;
+font-weight: 500;
+line-height: 22.4px;
+text-align: center;
+ color: #4C4C4C;
+}
+.info h1{
+    margin-top: 10px;
+    font-family: DM Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: center;
+color: #E76943;
+
+}
+.info-sec{
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+
+}
+.sec-left{
+    padding: 20px;
+}
+
+.left-head{
+    color: #E76943;
+    font-family: Quicksand;
+font-size: 30px;
+font-weight: 700;
+line-height: 19.2px;
+text-align: left;
+
+}
+.left-para{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #4C4C4C;
+}
+
+.list{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+}
+.quto{
+
+    font-weight: 700;
+    font-size: 24px;
+    
+
+}
+.img-2{
+    width: 150px;     
+    height: 150px;     
+    border-radius: 50%; /* This makes the div a circle */
+    overflow: hidden;   /* Ensures the image stays within the circle */
+    display: flex;      /* Center the image within the div */
+    justify-content: center;
+    align-items: center;
+   
+}
+.qq{
+    border: 1px solid red;
+}
+.name{
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #4C4C4C;
+    text-align: right;
+}
+.footer{
+    padding: 50px;
+    margin-top: 20px;
+    background-color:#FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.details p{
+
+    color: #4C4C4C;
+
+}
+.footer p{
+
+    margin-top: 10px;
+
+}
+
+.contact a{
+    color: #4C4C4C;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .info .para{
+
+        font-size: 16px;
+
+    }
+    .left-head{
+        font-size: 16px;
+    }
+    .left-para{
+        font-size:12px ;
+    }
+    .quto{
+        font-size: 12px;
+    }
+   
+    .name{
+        font-size: 12px;
+    }
+    .info{
+        padding: 50px;
+    }
+}
